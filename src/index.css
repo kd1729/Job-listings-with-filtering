@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: aliceblue;
+}
+
+.MainDiv {
+  display: grid;
+  place-items: center;
+}
+
+.searchTag {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 40rem;
+  height: 3rem;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+}
+
+.CardDiv {
+  display: flex;
+  background-color: white;
+  margin: 0.5rem 0;
+  width: 50%;
+  position: relative;
+  align-items: center;
+}
+
+.CardDiv img {
+  height: 4rem;
+  width: 4rem;
+  background-color: black;
+  margin-left: 1rem;
+  border-radius: 50%;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.one {
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+}
+
+.two {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.three {
+  display: flex;
+  flex-direction: row;
+  color: gray;
+  font-size: 1rem;
+}
+
+.New {
+  color: white;
+  background-color: rgb(15, 242, 250);
+  border-radius: 5px;
+  margin-left: 0.5rem;
+  padding: 1px 3px;
+}
+
+.Featured {
+  color: white;
+  background-color: rgb(10, 10, 10);
+  border-radius: 5px;
+  margin-left: 0.5rem;
+  padding: 1px 3px;
+}
+
+.location,
+.contract {
+  margin-left: 0.5rem;
+}
+
+.languagesandtools {
+  position: absolute;
+  right: 1%;
+}
+
+.list {
+  margin-left: 1rem;
+  background-color: lightblue;
+  font-size: 1rem;
+  padding: 0.2rem;
+}

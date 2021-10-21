@@ -1,24 +1,38 @@
-import React from 'react'
+import React from "react";
 
 const Card = (props) => {
-    return (
-        <div className="CardDiv">
-            <img src={props.img} alt="" />
+  const arr = [
+    props.role,
+    props.level,
+    ...props.languages,
+    ...props.tools,
+  ];
 
-            <div className="Info">
-                <div className="one">
-                    {props.company}
-                    
-                </div>
-                <div className="two">
-                    {props.position}
-                </div>
-                <div className="three">
+  return (
+    <div className="CardDiv">
+      <img src={props.img} alt="" />
 
-                </div>
-            </div>
+      <div className="Info">
+        <div className="one">
+          {props.company}
+          {props.new && <span className="New">New</span>}
+          {props.featured && <span className="Featured">Featured</span>}
         </div>
-    )
-}
+        <div className="two">{props.position}</div>
+        <div className="three">
+          <span className="postedAt">{props.postedAt}</span>
+          <span className="contract">{props.contract}</span>
+          <span className="location">{props.location}</span>
+        </div>
+      </div>
 
-export default Card
+      <div className="languagesandtools">
+        {arr.map((t) => (
+          <span className="list">{t}</span>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Card;
