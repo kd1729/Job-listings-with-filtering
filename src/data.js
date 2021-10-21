@@ -3,7 +3,7 @@ const data =
     {
       "id": 1,
       "company": "Photosnap",
-      "logo": "./images/photosnap.svg",
+      "logo": "https://www.bing.com/th?id=OIP.FFg6pWxJoFtzdqeM6MJ6nwAAAA&w=178&h=100&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
       "new": true,
       "featured": true,
       "position": "Senior Frontend Developer",
@@ -18,7 +18,7 @@ const data =
     {
       "id": 2,
       "company": "Manage",
-      "logo": "./images/manage.svg",
+      "logo": "https://www.bing.com/th?id=OIP.lQFKKgBcti7HzGITpd7ypwHaCe&w=294&h=108&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
       "new": true,
       "featured": true,
       "position": "Fullstack Developer",
@@ -33,7 +33,7 @@ const data =
     {
       "id": 3,
       "company": "Account",
-      "logo": "./images/account.svg",
+      "logo": "https://th.bing.com/th/id/OIP.tSJbzrMMElfojP__jAdOHQHaFo?w=214&h=180&c=7&r=0&o=5&pid=1.7",
       "new": true,
       "featured": false,
       "position": "Junior Frontend Developer",
@@ -48,7 +48,7 @@ const data =
     {
       "id": 4,
       "company": "MyHome",
-      "logo": "./images/myhome.svg",
+      "logo": "https://th.bing.com/th/id/OIP.6cdk5J-67AwUPBl5GG0_rQHaHa?w=178&h=180&c=7&r=0&o=5&pid=1.7",
       "new": false,
       "featured": false,
       "position": "Junior Frontend Developer",
@@ -63,7 +63,7 @@ const data =
     {
       "id": 5,
       "company": "Loop Studios",
-      "logo": "./images/loop-studios.svg",
+      "logo": "https://th.bing.com/th/id/OIP.ab-9LqOhx4B_5YL1G614JQHaEK?w=307&h=180&c=7&r=0&o=5&pid=1.7",
       "new": false,
       "featured": false,
       "position": "Software Engineer",
@@ -78,7 +78,7 @@ const data =
     {
       "id": 6,
       "company": "FaceIt",
-      "logo": "./images/faceit.svg",
+      "logo": "https://th.bing.com/th/id/OIP.t1LGO7s-v0vytNAcojFFvwHaIB?w=173&h=187&c=7&r=0&o=5&pid=1.7",
       "new": false,
       "featured": false,
       "position": "Junior Backend Developer",
@@ -93,7 +93,7 @@ const data =
     {
       "id": 7,
       "company": "Shortly",
-      "logo": "./images/shortly.svg",
+      "logo": "https://th.bing.com/th/id/OIP.SS42Ig6GVs6apGXbBUrb3wHaF7?w=225&h=184&c=7&r=0&o=5&pid=1.7",
       "new": false,
       "featured": false,
       "position": "Junior Developer",
@@ -108,7 +108,7 @@ const data =
     {
       "id": 8,
       "company": "Insure",
-      "logo": "./images/insure.svg",
+      "logo": "https://th.bing.com/th/id/OIP.Lfd3Jq3KhMntNCEKUlvXWQHaHa?w=180&h=184&c=7&r=0&o=5&pid=1.7",
       "new": false,
       "featured": false,
       "position": "Junior Frontend Developer",
@@ -123,7 +123,7 @@ const data =
     {
       "id": 9,
       "company": "Eyecam Co.",
-      "logo": "./images/eyecam-co.svg",
+      "logo": "https://th.bing.com/th/id/OIP.ztOQcb4mwNSRw1SS4HPFnwHaFj?w=247&h=185&c=7&r=0&o=5&pid=1.7",
       "new": false,
       "featured": false,
       "position": "Full Stack Engineer",
@@ -138,7 +138,7 @@ const data =
     {
       "id": 10,
       "company": "The Air Filter Company",
-      "logo": "./images/the-air-filter-company.svg",
+      "logo": "https://th.bing.com/th/id/OIP.DSODsWF-drRsPw-CiwZVwwHaEK?w=298&h=180&c=7&r=0&o=5&pid=1.7",
       "new": false,
       "featured": false,
       "position": "Front-end Dev",
