@@ -1,17 +1,23 @@
 import React from "react";
 import { useState } from "react";
 
-const Search = () => {
-
+const Search = (props) => {
   const [Tags, setTags] = useState([]);
 
- 
   function handleKeyPress(e) {
-    console.log(e.target.value);
-    if (e.code === "Space") {      
-      setTags(x => {return [...x, e.target.value]});
+    
+    if (e.code === "Space") {
+      var temp = e.target.value;
+      setTags((x) => {
+        return [...x, temp];
+      });
       e.target.value = "";
     }
+
+    if(e.code === "Enter"){
+      props.onPressEnter(Tags);
+    }
+
   }
 
   return (
@@ -22,7 +28,18 @@ const Search = () => {
         placeholder="Enter tags...."
         onKeyPress={handleKeyPress}
       />
-      {console.log(Tags)}
+      <br />
+
+      <div className="TagsList">
+        <span className="TagsHeading">Tags List : </span>
+        {Tags.map((name) => (
+          <span key={name} className="Tags">
+            {" "}
+            {name}{" "}
+          </span>
+        ))}
+      </div>
+
     </div>
   );
 };

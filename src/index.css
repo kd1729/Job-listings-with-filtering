@@ -17,7 +17,7 @@ body {
 
 .searchTag {
   margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   width: 40rem;
   height: 3rem;
   font-size: 1.6rem;
@@ -96,4 +96,23 @@ body {
   background-color: lightblue;
   font-size: 1rem;
   padding: 0.2rem;
+}
+
+.TagsList{
+  margin-bottom: 1rem;
+}
+
+.Tags{
+  background-color: rgb(61, 59, 59);
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.TagsHeading{
+  font-size: 2rem;
+  color: brown;
 }

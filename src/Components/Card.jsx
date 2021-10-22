@@ -5,7 +5,7 @@ const Card = (props) => {
     props.role,
     props.level,
     ...props.languages,
-    ...props.tools,
+    ...props.tools
   ];
 
   return (
@@ -27,8 +27,8 @@ const Card = (props) => {
       </div>
 
       <div className="languagesandtools">
-        {arr.map((t) => (
-          <span className="list">{t}</span>
+        {arr.map(t => (
+          <span key={t} className="list">{t}</span>
         ))}
       </div>
     </div>

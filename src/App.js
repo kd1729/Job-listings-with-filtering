@@ -1,19 +1,27 @@
-// import { useState } from "react";
+import { useState } from "react";
 import { nanoid } from "nanoid";
 import data from "./data";
 import Card from "./Components/Card";
 import Search from "./Components/Search";
 
 function App() {
-  // const [CARDS, setCard] = useState(data)
+  const [CARDS, setCards] = useState(data);
 
-  function onClickSpace() {}
+  function onPressEnter(Tags) {
+    setCards(
+      CARDS.map( t => {
+        return Tags.every((element) => {
+          return [t.role, t.level, ...t.languages, ...t.tools].includes(element);
+        });
+      })
+    );
+  }
 
   return (
     <div className="MainDiv">
-      <Search onClickSpace={onClickSpace} />
+      <Search onPressEnter={onPressEnter} />
 
-      {data.map((t, idx) => {
+      {CARDS.map((t, idx) => {
         return (
           <Card
             key={nanoid()}
