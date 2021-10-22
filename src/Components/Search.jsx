@@ -8,6 +8,8 @@ const Search = (props) => {
     
     if (e.code === "Space") {
       var temp = e.target.value;
+      if(temp[0] === " ")
+        temp = temp.slice(1);
       setTags((x) => {
         return [...x, temp];
       });

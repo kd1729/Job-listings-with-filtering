@@ -9,7 +9,11 @@ const Card = (props) => {
   ];
 
   return (
-    <div className="CardDiv">
+    <div className="CardDiv"
+    style={{
+      display: (props.display  ? "flex" : "none"),
+    }}
+    >
       <img src={props.img} alt="" />
 
       <div className="Info">

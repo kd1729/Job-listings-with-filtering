@@ -13,7 +13,8 @@ const data =
       "contract": "Full Time",
       "location": "USA Only",
       "languages": ["HTML", "CSS", "JavaScript"],
-      "tools": []
+      "tools": [],
+      "display": true
     },
     {
       "id": 2,
@@ -28,7 +29,8 @@ const data =
       "contract": "Part Time",
       "location": "Remote",
       "languages": ["Python"],
-      "tools": ["React"]
+      "tools": ["React"],
+      "display": true
     },
     {
       "id": 3,
@@ -43,7 +45,8 @@ const data =
       "contract": "Part Time",
       "location": "USA Only",
       "languages": ["JavaScript"],
-      "tools": ["React", "Sass"]
+      "tools": ["React", "Sass"],
+      "display": true
     },
     {
       "id": 4,
@@ -58,7 +61,8 @@ const data =
       "contract": "Contract",
       "location": "USA Only",
       "languages": ["CSS", "JavaScript"],
-      "tools": []
+      "tools": [],
+      "display": true
     },
     {
       "id": 5,
@@ -73,7 +77,8 @@ const data =
       "contract": "Full Time",
       "location": "Worldwide",
       "languages": ["JavaScript"],
-      "tools": ["Ruby", "Sass"]
+      "tools": ["Ruby", "Sass"],
+      "display": true
     },
     {
       "id": 6,
@@ -88,7 +93,8 @@ const data =
       "contract": "Full Time",
       "location": "UK Only",
       "languages": ["Ruby"],
-      "tools": ["RoR"]
+      "tools": ["RoR"],
+      "display": true
     },
     {
       "id": 7,
@@ -103,7 +109,8 @@ const data =
       "contract": "Full Time",
       "location": "Worldwide",
       "languages": ["HTML", "JavaScript"],
-      "tools": ["Sass"]
+      "tools": ["Sass"],
+      "display": true
     },
     {
       "id": 8,
@@ -118,7 +125,8 @@ const data =
       "contract": "Full Time",
       "location": "USA Only",
       "languages": ["JavaScript"],
-      "tools": ["Vue", "Sass"]
+      "tools": ["Vue", "Sass"],
+      "display": true
     },
     {
       "id": 9,
@@ -133,7 +141,8 @@ const data =
       "contract": "Full Time",
       "location": "Worldwide",
       "languages": ["JavaScript", "Python"],
-      "tools": ["Django"]
+      "tools": ["Django"],
+      "display": true
     },
     {
       "id": 10,
@@ -148,7 +157,8 @@ const data =
       "contract": "Part Time",
       "location": "Worldwide",
       "languages": ["JavaScript"],
-      "tools": ["React", "Sass"]
+      "tools": ["React", "Sass"],
+      "display": true
     }
   ]
 

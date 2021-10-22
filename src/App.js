@@ -7,12 +7,18 @@ import Search from "./Components/Search";
 function App() {
   const [CARDS, setCards] = useState(data);
 
+  const checker = (arr, target) => target.every((v) => arr.includes(v));
+
   function onPressEnter(Tags) {
+    console.log(Tags);
     setCards(
-      CARDS.map( t => {
-        return Tags.every((element) => {
-          return [t.role, t.level, ...t.languages, ...t.tools].includes(element);
-        });
+      CARDS.map((t) => {
+        t.display = true;
+        let temp = [t.role, t.level, ...t.languages, ...t.tools];
+        console.log(checker(temp, Tags));
+        if (!checker(temp, Tags))
+          t.display = false;
+        return t;
       })
     );
   }
@@ -24,6 +30,7 @@ function App() {
       {CARDS.map((t, idx) => {
         return (
           <Card
+            display={t.display}
             key={nanoid()}
             id={t.id}
             img={t.logo}
