@@ -10,7 +10,6 @@ function App() {
   const checker = (arr, target) => target.every((v) => arr.includes(v));
 
   function onPressEnter(Tags) {
-    console.log(Tags);
     setCards(
       CARDS.map((t) => {
         t.display = true;
@@ -23,9 +22,17 @@ function App() {
     );
   }
 
+    function resetAll(){
+      window.location.reload();
+    }
+
+
   return (
     <div className="MainDiv">
+      <div className="header">
       <Search onPressEnter={onPressEnter} />
+      <div className="resetAll" onClick={resetAll}>Clear Tags </div>
+      </div>
 
       {CARDS.map((t, idx) => {
         return (
@@ -48,6 +55,8 @@ function App() {
           />
         );
       })}
+
+      
     </div>
   );
 }

@@ -2,12 +2,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family:sans-serif;
 }
 
 body {
   height: 100vh;
   width: 100vw;
-  background-color: aliceblue;
+  background-color: rgb(126, 159, 172);
 }
 
 .MainDiv {
@@ -15,14 +16,41 @@ body {
   place-items: center;
 }
 
-.searchTag {
+.header{
+  display: flex;
   margin-top: 3rem;
   margin-bottom: 1rem;
+}
+
+
+.searchTag {
   width: 40rem;
   height: 3rem;
   font-size: 1.6rem;
   padding-left: 1rem;
 }
+
+.resetAll {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  height: 3rem;
+  padding: 5px 10px;
+  margin-left: 1rem;
+  border-radius: 5px;
+}
+
+.resetAll:hover {
+  cursor: pointer;
+  background-color: rgb(54, 53, 53);
+}
+
+.resetAll:active {
+  position: relative;
+  top: 2px;
+}
+
 
 .CardDiv {
   display: flex;
@@ -98,11 +126,11 @@ body {
   padding: 0.2rem;
 }
 
-.TagsList{
+.TagsList {
   margin-bottom: 1rem;
 }
 
-.Tags{
+.Tags {
   background-color: rgb(61, 59, 59);
   color: white;
   font-size: 1.2rem;
@@ -112,7 +140,8 @@ body {
   letter-spacing: 1px;
 }
 
-.TagsHeading{
+.TagsHeading {
   font-size: 2rem;
   color: brown;
 }
+
