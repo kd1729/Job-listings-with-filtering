@@ -33,6 +33,7 @@ function App() {
       <Search onPressEnter={onPressEnter} />
       <div className="resetAll" onClick={resetAll}>Clear Tags </div>
       </div>
+      <div className="search"> To Search press Enter</div>
 
       {CARDS.map((t, idx) => {
         return (
@@ -56,6 +57,7 @@ function App() {
         );
       })}
 
+        <div style={{marginBottom: "2rem"}}></div>
       
     </div>
   );

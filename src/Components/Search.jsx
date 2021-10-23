@@ -27,7 +27,7 @@ const Search = (props) => {
       <input
         className="searchTag"
         type="text"
-        placeholder="Enter tags...."
+        placeholder="Enter tags seperated by space...."
         onKeyPress={handleKeyPress}
       />
       <br />
